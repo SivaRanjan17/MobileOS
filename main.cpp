@@ -1,41 +1,30 @@
 #include <iostream>
+#include <fstream>
+#include <conio.h>
+#include <stdlib.h>
+#include "Mobile_OS.h"
 
 using namespace std;
 
-class NestedClass
-{
-    public:
-        int x;
-        class ClassN
-        {
-            public:
-                int y;
-        };
-
-        void display()
-        {
-            ClassN obj2;
-            obj2.y = 10;
-
-            cout << "\nY: " << obj2.y;
-        }
-
-};
-
 int main()
 {
-    //ClassN obj1;
 
-    //obj1.y = 10;
-    //cout << "\nY: " << obj1.y;
+   Mobile_OS N1100;
 
-    NestedClass obj2;
 
-    obj2.x = 20;
+   while (true)
+   {
+       if (N1100.lock())
+       {
+           cout << "\nPhone Locked";
+       }
 
-    cout << "\nX: " << obj2.x;
+        else
+        {
+            N1100.Main_Menu();
+        }
+    }
 
-    obj2.display();
-
-     return 0;
+    cout << "\nHello world!" << endl;
+    return 0;
 }

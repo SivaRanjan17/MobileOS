@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1526115477 source:d:\my folder\programs\c++\package\mobile os\main.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	<stdlib.h>
+	"Mobile_OS.h"
+
+1526068856 d:\my folder\programs\c++\package\mobile os\contacts.h
+	<iostream>
+	<string>
+
+1526069001 source:d:\my folder\programs\c++\package\mobile os\contacts.cpp
+	"Contacts.h"
+	<iostream>
+	<fstream>
+	<string.h>
+	<stdio.h>
+
+1526065243 source:d:\my folder\programs\c++\package\mobile os\phone.cpp
+	"Phone.h"
+	<fstream>
+	<iostream>
+	"Contacts.h"
+	<string.h>
+
+1526053381 d:\my folder\programs\c++\package\mobile os\phone.h
+	"Contacts.h"
+
+1526065243 d:\my folder\programs\c++\package\mobile os\messages.h
+	"Contacts.h"
+
+1526068837 source:d:\my folder\programs\c++\package\mobile os\messages.cpp
+	"Messages.h"
+	<fstream>
+	<iostream>
+	"Contacts.h"
+	<string.h>
+
+1526116138 source:d:\my folder\programs\c++\package\mobile os\mobile_os.cpp
+	"Mobile_OS.h"
+	"Contacts.h"
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<chrono>
+	<thread>
+
+1526116098 d:\my folder\programs\c++\package\mobile os\mobile_os.h
+	"Contacts.h"
+	"Phone.h"
+	"Setting.h"
+	"Messages.h"
+	"Music.h"
+	"calculator.h"
+	"Browser.h"
+	"todolist.h"
+	"clock.h"
+	"lockscreen.h"
+
+1526116072 d:\my folder\programs\c++\package\mobile os\setting.h
+	<iostream>
+	<fstream>
+
+1526115620 d:\my folder\programs\c++\package\mobile os\music.h
+	<iostream>
+	<fstream>
+	<string>
+
+1526100021 source:d:\my folder\programs\c++\package\mobile os\setting.cpp
+
+1526100213 source:d:\my folder\programs\c++\package\mobile os\music.cpp
+
+1526102765 d:\my folder\programs\c++\package\mobile os\calculator.h
+	"calculator.h"
+
+1526102840 source:d:\my folder\programs\c++\package\mobile os\calculator.cpp
+	<iostream>
+	"calculator.h"
+
+1526103856 source:d:\my folder\programs\c++\package\mobile os\browser.cpp
+	"Browser.h"
+	<iostream>
+
+1526103647 d:\my folder\programs\c++\package\mobile os\browser.h
+
+1526107051 d:\my folder\programs\c++\package\mobile os\todolist.h
+	<string>
+
+1526108767 source:d:\my folder\programs\c++\package\mobile os\todolist.cpp
+	"todolist.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+
+1526114421 d:\my folder\programs\c++\package\mobile os\lockscreen.h
+	<string>
+	"lockscreen.h"
+
+1526114496 source:d:\my folder\programs\c++\package\mobile os\lockscreen.cpp
+	"lockscreen.h"
+	<iostream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	<cstdlib>
+
+1526116113 d:\my folder\programs\c++\package\mobile os\clock.h
+	<iostream>
+	<ctime>
+
